@@ -1,0 +1,3 @@
+export const DATA_LOADED = "DATA_LOADED";
+export const DATA_FAILED = "DATA_FAILED";
+export const PROFILE_LOADED = "PROFILE_LOADED";
