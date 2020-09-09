@@ -14,12 +14,14 @@ import {
   ) => {
     switch (action.type) {
       case DATA_LOADED:
-        return {
+        return { 
+          ...state,
           profiles: action.profiles,
           loadingError: false
         };
         case PROFILE_LOADED:
         return {
+          ...state,
           profileInfo: action.profileInfo,
           loadingError: false
         };
